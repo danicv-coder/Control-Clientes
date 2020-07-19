@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
 import { HeadboardComponent } from './Components/headboard/headboard.component';
 import { ClientsComponent } from './Components/clients/clients.component';
 import { EditClientsComponent } from './Components/edit-clients/edit-clients.component';
@@ -32,7 +31,6 @@ import { BoardComponent } from './Components/board/board.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
