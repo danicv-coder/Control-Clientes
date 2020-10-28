@@ -1,3 +1,10 @@
+<div *ngIf="!load">
+  <div class="spinner">
+    <img src="../assets/icono.png" class="animation" style="width: 200px; height: auto;">
+  </div>
+</div>
+<div *ngIf="load">
 <app-headboard></app-headboard>
 <router-outlet></router-outlet>
 <app-footer-page></app-footer-page>
+</div>

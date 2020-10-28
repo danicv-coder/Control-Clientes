@@ -1,0 +1,31 @@
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+.animation{
+  animation-name: osm;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes osm {
+  from {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  to {
+      transform: scale(1.1);
+      opacity: 1;
+  }
+}

@@ -1,3 +1,7 @@
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore'
+import { FlashMessagesModule } from 'angular2-flash-messages';
+import { environment } from '../environments/environment';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BoardComponent } from './Components/board/board.component';
